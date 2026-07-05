@@ -1,0 +1,27 @@
+PyTorch: 2.12.1+cu126
+CUDA available: True
+GPU: NVIDIA GeForce RTX 3050
+Device: cuda
+Test loss: 0.2727636773411679
+Test accuracy: 0.9168514692862262
+Best val acc: 0.9861149425287357
+Final train acc: 0.9801834524931607
+Final val acc: 0.9861149425287357
+train: [3464, 409, 2427, 8556, 1624, 54, 609, 501, 36730]
+test: [832, 146, 2772, 1126, 1973, 95, 257, 693, 110701]
+
+              precision    recall  f1-score   support
+
+      Center       0.43      0.70      0.53       832
+       Donut       0.56      0.66      0.61       146
+    Edge-Loc       0.43      0.76      0.55      2772
+   Edge-Ring       0.81      0.78      0.79      1126
+         Loc       0.31      0.58      0.41      1973
+   Near-full       0.75      1.00      0.86        95
+      Random       0.68      0.76      0.72       257
+     Scratch       0.17      0.69      0.27       693
+        none       0.99      0.93      0.96    110701
+
+    accuracy                           0.92    118595
+   macro avg       0.57      0.76      0.63    118595
+weighted avg       0.95      0.92      0.93    118595
